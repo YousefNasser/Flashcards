@@ -3,7 +3,8 @@
 Flashcards::Flashcards(QWidget *parent)
     : QMainWindow(parent)
 {
-    ui.setupUi(this);
+    ui->setupUi(this);
+    
 }
 
 Flashcards::~Flashcards()

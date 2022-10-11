@@ -12,5 +12,5 @@ public:
     ~Flashcards();
 
 private:
-    Ui::FlashcardsClass ui;
+    Ui::FlashcardsClass* ui;
 };
